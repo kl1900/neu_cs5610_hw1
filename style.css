@@ -1,0 +1,80 @@
+
+* {background-color: lightgoldenrodyellow}
+
+/* change home page h1 font */
+#index_h1 {
+    font-family: Montserrat, sans-serif;
+}
+
+.profile {
+    display: block;
+    margin-left: 10px;
+    /* margin-right: auto; */
+    width: 20%;
+    border-bottom: 1px solid black;
+}
+
+.header {
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    max-width: 1500px;
+}
+
+.row {
+    display: flex;
+    border-bottom: 1px solid black;
+    max-width: 1500px;
+    padding-bottom: 5px;
+}
+
+.cats {
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-basis: 25%;
+    width: 100%;
+}
+
+.logo {
+    position: relative;
+    height: 30px;
+    top: 10px;
+}
+
+
+/* navigation related styles */
+nav {
+    border-top: 1px solid black;
+}
+
+.crumbs ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::before {
+    display: inline-block;
+    color: black;
+    content: '[';
+    font-size: 90%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: black;
+    content: ']';
+    font-size: 90%;
+    font-weight: bold;
+    padding: 0 3px;
+}
